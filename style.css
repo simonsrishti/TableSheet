@@ -1,0 +1,36 @@
+*body{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+}
+table{
+  border-collapse: collapse;
+}
+h1{font-family: 'Encode Sans Semi Condensed', sans-serif;}
+h2{font-family: 'Encode Sans Semi Condensed', sans-serif;}
+tr:nth-child(odd){
+background-color: #313131;
+color: white;
+}
+tr td{
+  border:  1px solid black;
+  padding: 10px;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+tr th{
+  border: 1px solid black;
+  background-color: rgb(232, 178, 77);
+  padding: 10px;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  color: #313131;  
+
+}
